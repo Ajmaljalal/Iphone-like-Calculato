@@ -1,0 +1,101 @@
+
+
+.mainContainer {
+    max-width: 100%;
+    background-color: rgb(17, 17, 17);
+    height: 100%;
+}
+
+.secondContainer{
+    max-width: 375px;
+}
+    
+.desplayRow {
+    width: 100%;
+    height: 25%;
+    /* border: white solid 1px; */ 
+}
+
+.storedNum{
+    color: white;
+    font-size: 1rem;
+}
+
+.currentNum{
+    color: white;
+    font-size: 4rem;
+}
+
+.btnsHolder {
+    width: 100%;
+    /* border: white solid 1px; */
+}
+.btnWandH{
+    width: 20%;
+    height: 10%;
+    color: white;
+    font-size: 1.4rem;
+    background-color: #47453D;
+}
+
+.btnOrang {
+    background-color: darkorange;
+}
+
+.btnSilver {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.btnSilver:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* @media screen and (max-width: 2560px) {
+    .mainContainer {
+        max-width: 28%;
+        margin-top: 3px;
+        border-radius: 5px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mainContainer {
+        max-width: 37%;
+        margin-top: 3px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .mainContainer {
+        max-width: 65%;
+        margin-top: 3px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .mainContainer {
+        max-width: 90%;
+        margin-top: 3px;
+        border-radius: 5px;
+    }
+
+*/
+
+@media screen and (max-width: 320px) {
+    .btnsHolder {
+        margin-top: 4px;
+        
+    }
+
+    .btnWandH {
+        height: 20%;
+    }
+} 
+
+
